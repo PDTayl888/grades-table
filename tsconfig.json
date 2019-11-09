@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "grades-table": [
+        "dist/grades-table"
+      ],
+      "grades-table/*": [
+        "dist/grades-table/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
